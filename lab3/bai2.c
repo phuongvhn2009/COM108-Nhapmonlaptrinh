@@ -1,4 +1,3 @@
-#include <math.h>
 #include <stdio.h>
     int main(){
         printf("nhap a ,b cho ham so bac nhat (a*x + b = 0): ");
