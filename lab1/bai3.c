@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(){
-    printf("Vu Hoang Nhat Phuong\nSD2001\nTB01940\n");
+    printf("Ho va ten: Vu Hoang Nhat Phuong\nLop: SD2001\nMSSV: TB01940\n");
     return 0;
 }
