@@ -8,10 +8,13 @@
                 d++;
             }
         }
-        if (d==0){
+        if (n==1){
+            printf("1 khong phai so nguyen to");
+        }
+        else if (d==0){
             printf("%d la so nguyen to",n);
         }
-        if (d!=0) {
+        else if (d!=0) {
             printf("%d khong phai so nguyen to",n);
         }
     }
