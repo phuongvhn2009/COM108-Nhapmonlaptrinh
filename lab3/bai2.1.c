@@ -11,7 +11,7 @@
             }
         } 
         else{
-            printf("phuong trinh co nghiem x = %.2f", -b/a);
+            printf("phuong trinh co nghiem x = %f", -b/a);
         }
         return 0;
 

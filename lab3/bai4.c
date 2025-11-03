@@ -51,7 +51,7 @@ int main() {
                     }
                 } 
                 else{
-                    printf("phuong trinh co nghiem x = %.2f", -c/b);
+                    printf("phuong trinh co nghiem x = %f", -c/b);
                 }
             }
             else{
@@ -59,13 +59,13 @@ int main() {
                 if (d < 0){
                     printf("phuong trinh vo nghiem");
                 }else if (d == 0){
-                    printf("phuong trinh co nghiem kep x1 = x2 = %.2f", -b/(2*a));
+                    printf("phuong trinh co nghiem kep x1 = x2 = %f", -b/(2*a));
                 }else{
                     x1 = (-b + sqrt(d)) / (2*a);
                     x2 = (-b - sqrt(d)) / (2*a);
                     printf("phuong trinh co 2 nghiem phan biet:\n");
-                    printf("x1 = %.2f\n", x1);
-                    printf("x2 = %.2f", x2);
+                    printf("x1 = %f\n", x1);
+                    printf("x2 = %f", x2);
                 }
             }
         }
@@ -77,30 +77,31 @@ int main() {
             scanf("%d",&a);
             if (a <= 50) {
                 tien = a * 1678;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             else if (a <= 100) {
                 tien = a * 1734;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             else if (a <= 200) {
                 tien = a * 2014;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             else if (a <= 300) {
                 tien = a * 2536;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             else if (a <= 400) {
                 tien = a * 2.834;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             else {
                 tien = a * 2927;
-                printf("so tien phai tra la: %.2f", tien);
+                printf("so tien phai tra la: %f", tien);
             }
             }
                 break;
+            
     }
 
     return 0;
