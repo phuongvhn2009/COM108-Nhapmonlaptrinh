@@ -3,13 +3,16 @@
     int main() {
         int n,i,d=0;
         scanf("%d",&n);
-        for (i=2;i<n;i++) {
-            if (n % i == 0) {
-                d++;
-            }
-        }
-        if (n==1){
-            printf("1 khong phai so nguyen to");
+        i=2;
+        while  (i<n){
+        	if(i%2==0){
+        		d++;
+			}
+			i++;
+		}
+        
+        if (n<0){
+            printf("ko phai la so nguyen to");
         }
         else if (d==0){
             printf("%d la so nguyen to",n);

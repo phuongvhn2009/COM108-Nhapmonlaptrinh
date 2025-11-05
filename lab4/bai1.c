@@ -12,13 +12,10 @@
             }
             i++;
         }
-        if (dem >0){
-            tb = d/dem;
-        }
-        else {
-            tb = 0;
-        }
         
-        printf("trung binh tong la: %.2f",tb);
+        tb = d/dem;
+     
+        
+        printf("trung binh tong la: %f",tb);
         return 0;
     }
