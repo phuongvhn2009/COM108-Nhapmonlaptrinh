@@ -67,8 +67,10 @@ int main(){
             }
             printf("Khong phai so chinh phuong\n\n");
             break;
+        case 4:
+        	return 0;
         
         }
-    } while (cn!=4);
+    } while (cn<1 || cn>4);
     return 0;
 }
