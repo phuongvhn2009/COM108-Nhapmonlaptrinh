@@ -1,11 +1,11 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main(){
 
     int cn;
 
     do {
-
+		system("cls");
         int n,min,max,i,dem=0;
         float d=0,tb;
         int dd=0;
@@ -36,6 +36,7 @@ int main(){
         
             
             printf("trung binh tong la: %f\n\n\n",tb);
+            getch();
             break;
         case 2:
             
@@ -50,12 +51,15 @@ int main(){
             
             if (n<0){
                 printf("ko phai la so nguyen to\n\n");
+                getch();
             }
             else if (dd==0){
                 printf("%d la so nguyen to\n\n",n);
+                getch();
             }
             else if (dd!=0) {
                 printf("%d khong phai so nguyen to\n\n",n);
+                getch();
             }
             break;
         case 3:
@@ -67,6 +71,7 @@ int main(){
                 }
             }
             printf("Khong phai so chinh phuong\n\n");
+            getch();
             break;
         case 4:
         	return 0;
