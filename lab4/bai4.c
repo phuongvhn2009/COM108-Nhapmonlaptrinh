@@ -61,6 +61,7 @@ int main(){
             for (i=1;i<n;i++){
                 if(i*i==n){
                     printf("So chinh phuong\n\n");
+                    break;
                 }
             }
             printf("Khong phai so chinh phuong\n\n");
