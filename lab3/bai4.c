@@ -2,9 +2,12 @@
 #include <math.h>
 
 int main() {
+	
     int a;
-    printf("Nhap 1 -> 4: ");
+    
+    printf("Nhap 1 -> 4 de chon chuc nang: ");
     scanf("%d", &a);
+    
     switch (a) {
         case 1: {
             float a;

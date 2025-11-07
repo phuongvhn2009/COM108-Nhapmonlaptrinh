@@ -8,13 +8,15 @@ int main(){
 
         int n,min,max,i,dem=0;
         float d=0,tb;
+        int dd=0;
 
-
-        printf(" Chuc nang 1: tinh trung binh cong\n");
-        printf(" Chuc nang 2: tim so chinh phuong\n");
-        printf(" Chuc nang 3: tim so nguyen to\n");
-        printf(" Chuc nang 4: thoat\n");
-        printf("Nhap chuc nang: ");
+		printf("------ --------Bang menu------ --------\n");
+        printf("| Chuc nang 1: tinh trung binh cong   |\n");
+        printf("| Chuc nang 2: tim so chinh phuong    |\n");
+        printf("| Chuc nang 3: tim so nguyen to       |\n");
+        printf("| Chuc nang 4: thoat                  |\n");
+        printf(" --------------------------------------\n");
+        printf("          Nhap chuc nang: ");
         scanf("%d", &cn);
         switch (cn)
         {
@@ -36,12 +38,12 @@ int main(){
             printf("trung binh tong la: %f\n\n\n",tb);
             break;
         case 2:
-            int d=0;
+            
             scanf("%d",&n);
             i=2;
             while  (i<n){
                 if(i%2==0){
-                    d++;
+                    dd++;
                 }
                 i++;
             }
@@ -49,10 +51,10 @@ int main(){
             if (n<0){
                 printf("ko phai la so nguyen to\n\n");
             }
-            else if (d==0){
+            else if (dd==0){
                 printf("%d la so nguyen to\n\n",n);
             }
-            else if (d!=0) {
+            else if (dd!=0) {
                 printf("%d khong phai so nguyen to\n\n",n);
             }
             break;
