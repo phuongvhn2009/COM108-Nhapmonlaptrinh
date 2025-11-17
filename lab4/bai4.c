@@ -12,8 +12,8 @@ int main(){
 
 		printf("------ --------Bang menu------ --------\n");
         printf("| Chuc nang 1: tinh trung binh cong   |\n");
-        printf("| Chuc nang 2: tim so chinh phuong    |\n");
-        printf("| Chuc nang 3: tim so nguyen to       |\n");
+        printf("| Chuc nang 2: tim so nguyen to    |\n");
+        printf("| Chuc nang 3: tim so chinh phuong       |\n");
         printf("| Chuc nang 4: thoat                  |\n");
         printf(" --------------------------------------\n");
         printf("          Nhap chuc nang: ");
@@ -42,12 +42,13 @@ int main(){
             
             scanf("%d",&n);
             i=2;
-            while  (i<n){
-                if(i%2==0){
-                    dd++;
-                }
-                i++;
-            }
+            
+            for (i = 2; i <= n/2; i++) {
+        		if (n % i == 0) {
+            	d = 1; 
+            	break;
+        		}
+    		}
             
             if (n<0){
                 printf("ko phai la so nguyen to\n\n");
