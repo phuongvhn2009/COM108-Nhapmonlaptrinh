@@ -15,5 +15,6 @@ int main(){
 	int a,b,c;
 	printf("nhap ba so a b c:\n");
 	scanf("%d%d%d",&a,&b,&c);
+	printf("so lon nhat la: %d",Max(a,b,c));
 	
 }
