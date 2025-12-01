@@ -12,7 +12,7 @@ int main(){
 		scanf("%d",&mang[i]);
 		}
 	
-	float tong,tb;
+	float tong=0,tb;
 	int dem=0;
 	
 	for (i=0;i<=n;i++){
@@ -21,7 +21,9 @@ int main(){
 			dem++;
 		}
 	}
+	
 	tb=tong/dem;
 	printf("\ntrung binh cong cua mang la: %f",tb);
+	
 	return 0;
 }
